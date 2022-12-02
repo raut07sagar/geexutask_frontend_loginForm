@@ -1,0 +1,237 @@
+.userDiv {
+  display: flex;
+  justify-content: space-between;
+
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(25, 131, 25);
+}
+
+.heading {
+  margin: 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.userdata {
+  width: 5rem;
+  background-color: rgb(170, 165, 165);
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px rgb(107, 107, 107) solid;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 15px;
+  color: brown;
+  font-size: 3rem;
+  margin: 2rem 2rem 0 0;
+}
+.userdata:hover {
+  box-shadow: 1px 3px 5px black;
+  cursor: pointer;
+}
+.userdata1 {
+  width: 30rem;
+  background-color: rgb(170, 165, 165);
+  height: 93vh;
+  padding: 1rem;
+  font-weight: bolder;
+  color: rgb(99, 97, 97);
+  border-radius: 10px;
+}
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+
+.email {
+  color: black;
+}
+.userdata1:hover {
+  cursor: pointer;
+  box-shadow: 5px 3px 10px black;
+}
+.daydata {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(85, 83, 83);
+  margin: 0.7rem 0 16rem 0;
+}
+.daydata span {
+  font-size: 1.5rem;
+}
+.daydata1 {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(85, 83, 83);
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+}
+.buttonlog {
+  margin-top: 6rem;
+  background: rgb(25, 131, 25);
+  width: 20%;
+  padding: 0.4rem;
+  color: black;
+  text-align: center;
+  border: 1px grey solid;
+}
+.buttonlog:hover {
+  box-shadow: 1px 1px 5px black;
+}
+
+@media screen and (max-width: 513px) {
+  .userdata {
+    width: 3rem;
+    background-color: rgb(170, 165, 165);
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px rgb(107, 107, 107) solid;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    color: brown;
+    font-size: 3rem;
+    margin: 1rem 2rem 0 0;
+  }
+  .userdata1 {
+    width: 20rem;
+    background-color: rgb(170, 165, 165);
+    height: 93vh;
+    padding: 1rem;
+    font-weight: bolder;
+    color: rgb(99, 97, 97);
+    border-radius: 10px;
+  }
+  .buttonlog {
+    margin-top: 3.5rem;
+    background: rgb(25, 131, 25);
+    width: 20%;
+    padding: 0.4rem;
+    color: black;
+    text-align: center;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .userdata {
+    width: 3rem;
+    background-color: rgb(170, 165, 165);
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px rgb(107, 107, 107) solid;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    color: brown;
+    font-size: 3rem;
+    margin: 1rem 2rem 0 0;
+  }
+  .userdata1 {
+    width: 20rem;
+    background-color: rgb(170, 165, 165);
+    height: 93vh;
+    padding: 1rem;
+    font-weight: bolder;
+    color: rgb(99, 97, 97);
+    border-radius: 10px;
+  }
+  .buttonlog {
+    margin-top: 3rem;
+    background: rgb(25, 131, 25);
+    width: 20%;
+    padding: 0.4rem;
+    color: black;
+    text-align: center;
+    border: 1px grey solid;
+  }
+  .daydata {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(85, 83, 83);
+    margin: 0.7rem 0 9rem 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .userdata {
+    width: 3rem;
+    background-color: rgb(170, 165, 165);
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px rgb(107, 107, 107) solid;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    color: brown;
+    font-size: 3rem;
+    margin: 1rem 2rem 0 0;
+  }
+  .userdata1 {
+    width: 20rem;
+    background-color: rgb(170, 165, 165);
+    height: 93vh;
+    padding: 1rem;
+    font-weight: bolder;
+    color: rgb(99, 97, 97);
+    border-radius: 10px;
+  }
+  .buttonlog {
+    margin-top: 3rem;
+    background: rgb(25, 131, 25);
+    width: 20%;
+    padding: 0.4rem;
+    color: black;
+    text-align: center;
+    border: 1px grey solid;
+  }
+  .daydata {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(85, 83, 83);
+    margin: 0.7rem 0 8rem 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .userdata {
+    width: 3rem;
+    background-color: rgb(170, 165, 165);
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px rgb(107, 107, 107) solid;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    color: brown;
+    font-size: 3rem;
+    margin: 1rem 2rem 0 0;
+  }
+  .userdata1 {
+    width: 20rem;
+    background-color: rgb(170, 165, 165);
+    height: 93vh;
+    padding: 1rem;
+    font-weight: bolder;
+    color: rgb(99, 97, 97);
+    border-radius: 10px;
+  }
+  .buttonlog {
+    margin-top: 3rem;
+    background: rgb(25, 131, 25);
+    width: 20%;
+    padding: 0.4rem;
+    color: black;
+    text-align: center;
+    border: 1px grey solid;
+  }
+  .daydata {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(85, 83, 83);
+    margin: 0.7rem 0 6rem 0;
+  }
+}

@@ -1,0 +1,355 @@
+.logDiv {
+  background-color: #29739d;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 6rem;
+  position: relative;
+  color: #fff;
+}
+
+.emailDiv {
+  background-color: #e0e0e0;
+  width: 40%;
+  height: 43vh;
+  position: absolute;
+  left: 30%;
+  margin-top: 2rem;
+  border-radius: 9px;
+}
+
+.inputdiv input {
+  width: 88%;
+  padding: 0.8rem;
+  margin: 1.5rem 0.6rem 0.6rem 0.6rem;
+  border-radius: 9px;
+  border: 1px grey solid;
+}
+
+.inputdiv {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 13rem;
+  padding: 0.8rem;
+  border: none;
+}
+
+.bt1 {
+  margin-right: 1rem;
+  background-color: #299d2f;
+  font-size: 15px;
+}
+
+.bt1:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.bt2 {
+  margin-left: 2rem;
+  background-color: #29739d;
+  font-size: 15px;
+}
+.bt2:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px gray;
+}
+
+@media screen and (max-width: 600px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 45%;
+    height: 60vh;
+    position: absolute;
+    left: 26%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 45%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 40%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .emailDiv {
+    background-color: #e0e0e0;
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    left: 22%;
+
+    margin-top: 2rem;
+    border-radius: 9px;
+    padding: 1rem;
+  }
+
+  .bt1 {
+    background-color: #299d2f;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 0 0.1rem;
+    border-radius: 9px;
+  }
+  .bt2 {
+    background-color: #29739d;
+    font-size: 15px;
+    width: 95%;
+    margin: 2rem 0 0 0;
+    border-radius: 9px;
+  }
+
+  .inputdiv input {
+    width: 88%;
+    padding: 0.8rem;
+    margin: 1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 9px;
+    border: 1px grey solid;
+  }
+}
